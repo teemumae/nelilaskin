@@ -11,16 +11,16 @@ else:
     else:
         if operaatio == "+":
             summa = luku_1 + luku_2
-            print(summa)
+            print("Tulos:", summa)
         elif operaatio=="-":
             summa = luku_1 - luku_2
-            print(summa)
+            print("Tulos:", summa)
         elif operaatio == "*":
             summa = luku_1 * luku_2
-            print(summa)
+            print("Tulos:", summa)
         elif operaatio == "/":
             if luku_2 == 0:
                 print("Tällä ohjelmalla ei pääse äärettömyyteen")
             else:
                     summa = luku_1 / luku_2
-                    print(summa)
+                    print("Tulos:", summa)
